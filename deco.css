@@ -1,0 +1,47 @@
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+height:30px;
+width:150px;
+font-size: 30px; 
+border:1px solid #b7b7b7;
+color:#FF7F50;
+text-align:center;
+
+}
+#myimage {
+    height: 50px;
+    width: 50px;
+}
+body
+{
+background-color: #003333;
+}
+
+h1
+{
+color:orange;
+text-align:center;
+}
+
+#p01 {
+		Color:#ff8000;
+	font-family: 'Lora';
+  font-style: Bold;
+  font-weight: 400;
+  src: local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v9/-kdDKU8oN9KFA5ZRoLcwgg.woff2) format('woff2');	
+}
+@font-face {
+    font-family: MyFont;
+    src:
+        url(https://fonts.gstatic.com/s/karla/v5/2VOle1Oi9QmX2DqlVT7lLA.woff2) format('woff2');
+        
+}
+table#t01 {
+    width: 100%;    
+    background-color: #f1f1c1;
+}

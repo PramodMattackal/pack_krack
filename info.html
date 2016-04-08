@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="deco.css">
+ </head>
+
+<body style = "text-align:center;font-family:MyFont; Color:#ff8000;font-size:15px;">
+<pre>
+<form>
+Event:
+<input type="text" name="Event">
+</form>
+<script src="addinput.js" language="Javascript" type="text/javascript"></script>
+<form method="POST">
+     <div id="dynamicInput">
+Participant 1
+<input type="text" name="myInputs[]">
+     </div>
+     <input type="button" value="Add Participant" onClick="addInput('dynamicInput');">
+</form>
+<a href="table.html" ><img src="Lets Go.png" alt="TABLE" style="color:#ff8000;width:50px;height:50px;border:0"></a>
+<!--input type="image" id="myimage" src="plus.png" /-->
+</body>
+</html>
